@@ -1,5 +1,3 @@
-/// <reference path="./p5.global-mode.d.ts" />
-
 var scream;
 var scream2;
 var crack;
@@ -67,6 +65,7 @@ function preload(){
   go[1] = loadSound("assets/gameoverfx2.mp3");
   go[2] = loadSound("assets/gameoverfx3.mp3");
   go[3] = loadSound("assets/gameoverfx4.mp3");
+  go[4] = loadSound("assets/gameoverfx5.mp3");
   go[0].setVolume(2);
   go[1].setVolume(2);
   go[2].setVolume(2);
