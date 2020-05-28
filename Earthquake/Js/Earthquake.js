@@ -17,6 +17,8 @@ var render = Render.create({
         height: 900
     }
 });
+
+
 //tower
 var boxA = Bodies.rectangle(400, 400, 100, 95);
 var boxB = Bodies.rectangle(400, 300, 100, 95);
@@ -68,6 +70,7 @@ var mansionRoof = Bodies.trapezoid(1600, 50, 200, 50, .6);
 
 //ground
 var ground = Bodies.rectangle(960, 800, 1920, 60, { isStatic: true });
+var quakePlane = Bodies.rectangle(960, 770, 1920, 10);
 
 //boundaries
 var wall1 = Bodies.rectangle(-10, 540, 20, 1080, {isStatic: true}),
@@ -75,7 +78,7 @@ var wall1 = Bodies.rectangle(-10, 540, 20, 1080, {isStatic: true}),
 
 
 // add all of the bodies to the world
-World.add(engine.world, [boxA, boxB, boxC, boxD, house1B, house1C, house2B, house2C, house3B, house3C, house4B, house4C, house5B, house5C, house6B, house6C, hill, mansionA, mansionB, mansionC, mansionD, mansionE, mansionF, mansionG, mansionH, mansionI, mansionRoof, ground, wall1, wall2]);
+World.add(engine.world, [boxA, boxB, boxC, boxD, house1B, house1C, house2B, house2C, house3B, house3C, house4B, house4C, house5B, house5C, house6B, house6C, hill, mansionA, mansionB, mansionC, mansionD, mansionE, mansionF, mansionG, mansionH, mansionI, mansionRoof, ground, quakePlane, wall1, wall2]);
 
 // run the engine
 Engine.run(engine);
@@ -83,3 +86,20 @@ Engine.run(engine);
 // run the renderer
 Render.run(render);
 
+
+window.onclick = function() 
+{
+   this.quake();
+}
+
+var quake = function()
+{
+    Matter.Body.applyForce(this.quakePlane, {x: this.quakePlane.position.x, y: this.quakePlane.position.y }, {x: 0, y: 0.8});
+
+    return true;
+}
+
+function applyQuake()
+{
+    return true;
+}
