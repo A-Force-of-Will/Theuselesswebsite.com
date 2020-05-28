@@ -86,17 +86,20 @@ Engine.run(engine);
 // run the renderer
 Render.run(render);
 
-window.onclick = function()
+
+window.onclick = function() 
+{
+   this.quake();
+}
+
+var quake = function()
 {
     Matter.Body.applyForce(this.quakePlane, {x: this.quakePlane.position.x, y: this.quakePlane.position.y }, {x: 0, y: 0.8});
 
-    // this.console.log(array.length);
-    // this.console.log(array);
-    
-    // for (var i = 0; i < array.length; i++) {
-    //     const element = array[i];
-        
-    //     this.console.log("Register");
-    // }
-    
+    return true;
+}
+
+function applyQuake()
+{
+    return true;
 }
