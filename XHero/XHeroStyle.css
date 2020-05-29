@@ -21,7 +21,7 @@ body{
     text-shadow: 2px 2px 5px black;
 }
 
-.btn:hover{
+.btn:focus{
     transform: translateY(4px);
 }
 
@@ -29,7 +29,7 @@ body{
     background: red;
     height: 300px;
 }
-#btnC:hover{
+#btnC:focus{
     background: darkred;
 }
 
@@ -37,48 +37,48 @@ body{
     background: orange;
     height: 280px;
 }
-#btnD:hover{
+#btnD:focus{
     background: rgb(204, 112, 0);
 }
 #btnE{
     background: yellow;
     height: 260px;
 }
-#btnE:hover{
+#btnE:focus{
     background: #CCCC00;
 }
 #btnF{
     background: green;
     height: 240px;
 }
-#btnF:hover{
+#btnF:focus{
     background: darkgreen;
 }
 #btnG{
     background: lightseagreen;
     height: 220px;
 }
-#btnG:hover{
+#btnG:focus{
     background: rgb(17, 136, 130);
 }
 #btnA{
     background: lightskyblue;
     height: 200px;
 }
-#btnA:hover{
+#btnA:focus{
     background: rgb(80, 147, 173);
 }
 #btnB{
     background: orchid;
     height: 180px;
 }
-#btnB:hover{
+#btnB:focus{
     background: darkorchid;
 }
 #btnC2{
     background: red;
     height: 160px;
 }
-#btnC2:hover{
+#btnC2:focus{
     background: darkred;
 }
