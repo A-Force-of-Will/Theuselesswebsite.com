@@ -3,54 +3,78 @@ var audio = new Audio('Sounds/sweep.wav');
 var cKey = function () {
     audio = new Audio('Sounds/c.wav');
     audio.play();
-    document.getElementById("btnC").focus();
+    var btn = document.getElementById("btnC");
+    if(btn != null){
+        btn.focus();
+    }
     return true
 }
 var dKey = function () {
     audio = new Audio('Sounds/d1.wav');
     audio.play();
-    document.getElementById("btnD").focus();
+    var btn = document.getElementById("btnD");
+    if(btn != null){
+        btn.focus();
+    }
     return true;
 }
 var eKey = function () {
     audio = new Audio('Sounds/e1.wav');
     audio.play();
-    document.getElementById("btnE").focus();
+    var btn = document.getElementById("btnE");
+    if(btn != null){
+        btn.focus();
+    }
     return true;
 
 }
 var fKey = function () {
     audio = new Audio('Sounds/f.wav');
     audio.play();
-    document.getElementById("btnF").focus();
+    var btn = document.getElementById("btnF");
+    if(btn != null){
+        btn.focus();
+    }
     return true;
 
 }
 var gKey = function () {
     audio = new Audio('Sounds/g.wav');
     audio.play();
-    document.getElementById("btnG").focus();
+    var btn = document.getElementById("btnG");
+    if(btn != null){
+        btn.focus();
+    }
     return true;
 
 }
 var aKey = function () {
     audio = new Audio('Sounds/a.wav');
     audio.play();
-    document.getElementById("btnA").focus();
+    var btn = document.getElementById("btnA");
+    if(btn != null){
+        btn.focus();
+    }
     return true;
 
 }
 var bKey = function () {
     audio = new Audio('Sounds/b.wav');
     audio.play();
-    document.getElementById("btnB").focus();
+    var btn = document.getElementById("btnB");
+    if(btn != null){
+        btn.focus();
+    }
     return true;
 
 }
 var c2Key = function () {
     audio = new Audio('Sounds/c2.wav');
     audio.play();
-    document.getElementById("btnC2").focus();
+    var btn = document.getElementById("btnC2");
+    if(btn != null){
+        btn.focus();
+    };
     return true;
 
 }
