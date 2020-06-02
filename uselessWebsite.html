@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TheuselessWebsite.com</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id='randomSite' class="btn">PRESS ME!</div>
+    <button onclick='randomWebsite()'>PRESS ME!</button>
+
+    <script>
+        const randomWebsite = () => {
+            let urls = [
+                "Earthquake/home.html",
+                'XHero/XHero.html',
+                'breakGlass/index.html'
+            ];
+
+            let randomSite = Math.floor(Math.random() * urls.length);
+            
+            window.location = urls[randomSite];
+            console.log(urls[randomSite]);
+        }
+    </script>
 </body>
+
 </html>
