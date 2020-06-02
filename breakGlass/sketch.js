@@ -63,12 +63,10 @@ function preload(){
 
   go[0] = loadSound("assets/gameoverfx1.mp3");
   go[1] = loadSound("assets/gameoverfx2.mp3");
-  go[2] = loadSound("assets/gameoverfx3.mp3");
   go[3] = loadSound("assets/gameoverfx4.mp3");
   go[4] = loadSound("assets/gameoverfx5.mp3");
   go[0].setVolume(2);
   go[1].setVolume(2);
-  go[2].setVolume(2);
   go[3].setVolume(2);
   go[4].setVolume(2);
   punch = loadSound("assets/punch.mp3");
