@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.container{
+    text-align: center;
+    margin-top: 360px;
+}
+
+.btn{
+    border: 2px solid black;
+    width: 100px;
+    margin-left: 5px;
+    font-size: 40px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.btn:focus{
+    transform: translateY(4px);
+}
+
+#btnC{
+    background: red;
+    height: 300px;
+}
+#btnC:focus{
+    background: darkred;
+}
+
+#btnD{
+    background: orange;
+    height: 280px;
+}
+#btnD:focus{
+    background: rgb(204, 112, 0);
+}
+#btnE{
+    background: yellow;
+    height: 260px;
+}
+#btnE:focus{
+    background: #CCCC00;
+}
+#btnF{
+    background: green;
+    height: 240px;
+}
+#btnF:focus{
+    background: darkgreen;
+}
+#btnG{
+    background: lightseagreen;
+    height: 220px;
+}
+#btnG:focus{
+    background: rgb(17, 136, 130);
+}
+#btnA{
+    background: lightskyblue;
+    height: 200px;
+}
+#btnA:focus{
+    background: rgb(80, 147, 173);
+}
+#btnB{
+    background: orchid;
+    height: 180px;
+}
+#btnB:focus{
+    background: darkorchid;
+}
+#btnC2{
+    background: red;
+    height: 160px;
+}
+#btnC2:focus{
+    background: darkred;
+}
