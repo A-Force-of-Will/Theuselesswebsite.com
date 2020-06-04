@@ -1,0 +1,19 @@
+.btn {
+    color: #fff;
+    width: 220px;
+    background-color: #032f3e;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 8px;
+    border-radius: 8px;
+    font-family: Josefin;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    color: #f6eb16;
+    background-color: #076687;
+  }
+  

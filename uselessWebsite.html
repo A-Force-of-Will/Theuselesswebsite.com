@@ -9,22 +9,9 @@
 </head>
 
 <body>
-    <button onclick='randomWebsite()'>PRESS ME!</button>
+    <button class="btn" onclick=randomWebsite()>PRESS ME!</button>
 
-    <script>
-        const randomWebsite = () => {
-            let urls = [
-                "Earthquake/home.html",
-                'XHero/XHero.html',
-                'breakGlass/index.html'
-            ];
-
-            let randomSite = Math.floor(Math.random() * urls.length);
-            
-            window.location = urls[randomSite];
-            console.log(urls[randomSite]);
-        }
-    </script>
+    <script src="randomizer.js"></script>
 </body>
 
 </html>
