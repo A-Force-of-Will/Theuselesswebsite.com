@@ -3,10 +3,18 @@ body{
     padding: 0;
     background-color: gray;
 }
-
+.music{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border: 2px dashed black;
+}
 .container{
     text-align: center;
-    margin-top: 360px;
 }
 
 .btn{
